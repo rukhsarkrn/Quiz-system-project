@@ -68,7 +68,7 @@ switch (answer.question2){
     
 switch (answer.question3){
     case "Logical AND" :
-    console.log("Ques3 :Right Ans")
+    console.log("Ques3: Right Ans")
     points++;
     break;
     default:
@@ -113,11 +113,11 @@ switch (answer.question3){
 
 if (points>=5)
 
-             {console.log(chalk.greenBright(`\nYour points are = ${points} out of 7`));
+             {console.log(chalk.greenBright(`\nTOTAL POINTS : 7  |  POINTS OBTAINED : ${points}`));
              console.log(chalk.red("\nCongratulations You Win !!!"));}
             
              else
-             {console.log(chalk.greenBright(`\nYour points are = ${points} out of 7`));
+             {console.log(chalk.greenBright(`\nTOTAL POINTS : 7  |  POINTS OBTAINED : ${points}`));
              console.log(chalk.bgMagenta("\n# You Lose #"));}
 
     }
